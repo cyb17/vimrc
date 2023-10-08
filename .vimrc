@@ -79,6 +79,12 @@ inoremap <expr> <PageUp>   pumvisible() ? '\<PageUp>\<C-p>\<C-n>' : '\<PageUp>'
 "--------
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 
+"---------
+"42Header |
+"---------
+let g:user42 = 'yachen'
+let g:mail42 = 'yachen@student.42.fr'
+
 call plug#end()
 
 "==========================================================================================
@@ -123,6 +129,16 @@ call plug#end()
 "						 -------------------------------
 
 "---------
+"Vim-plug |
+"---------
+"PlugStatus		//Vérifier l'état des plugins
+"PlugInstall	//installation du plugin
+"PlugUpdate		//Installez ou mettez à jour des plugins
+"PlugClean		//Supprimer les répertoires inutilisés
+"PlugUpgrade	//Mettre à jour le gestionnaire de vim-plug:
+"PlugSnapshot	//Générer un script pour restaurer l'instantané actuel des plugins
+
+"---------
 "NERDTree |
 "---------
 "NERDTree	ouvrir NERDTree	
@@ -132,6 +148,7 @@ call plug#end()
 "t			ouvrir un fichier dans un onglet
 "T			ouvrit silencieusement sans quitter tree
 "s			ouvrir et split verticalement
+"R			actualiser le tree
 
 "--------
 "LeaderF |
