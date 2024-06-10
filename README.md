@@ -1,7 +1,7 @@
 #Basic Vim configuration
 
-## Introduction
-This guide provides a basic configuration for Vim, including essential plugins to enhance your development experience.
+## Description
+A basic configuration for Vim, including essential plugins to enhance your development experience.
 
 ##Plugins Included : 
 
