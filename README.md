@@ -1,4 +1,4 @@
-#Basic Vim configuration
+# Basic Vim configuration
 
 ## Description
 A basic configuration for Vim, including essential plugins to enhance your development experience.
